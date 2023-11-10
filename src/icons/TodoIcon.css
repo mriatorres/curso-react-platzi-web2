@@ -1,0 +1,17 @@
+.Icon-svg{
+    width: 24px;
+    height: 24px;
+}
+
+.TodoItem-p--complete{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.Icon-svg:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
+
+

@@ -1,0 +1,48 @@
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+
+li p {
+    background-color: white;
+    box-shadow: 10px 10px 20px rgb(173, 169, 169);
+    width: 600px;
+    margin-right: 30px;
+    height: max-content;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #25028a;
+    border-radius: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    cursor: pointer;
+}
+#check {
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+#cross {
+    margin-top: -25px;
+}
+
+#cross:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
+#check:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.toggle-check{
+    text-decoration: line-through;
+    background-color: #25028a;
+}
+
